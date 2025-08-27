@@ -1,7 +1,7 @@
 
 import "./css/App.css";
-import NavBar from "./components/NavBar.jsx";
-import ItemPage from "./pages/ItemPage.jsx";
+import NavBar from "./components/NavBar";
+import ItemPage from "./pages/ItemPage";
 
 function App() {
 
