@@ -10,8 +10,8 @@ const ItemPage = () => {
             price: "$29.50", 
             description: "tailored to your taste", 
             imageUrl: { 
-                mobile: "./src/assets/winter-jacket@bulbul-ahmed-mobile.webp",
-                tablet: "./src/assets/winter-jacket@bulbul-ahmed-Tablet.webp"
+                mobile: "Product-Catalog/src/assets/winter-jacket@bulbul-ahmed-mobile.webp",
+                tablet: "Product-Catalog/src/assets/winter-jacket@bulbul-ahmed-Tablet.webp"
             }, 
             Discount: "$20"
         },
