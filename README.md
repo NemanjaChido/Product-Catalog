@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/NemanjaChido/Product-Catalog.git)
-- Live Site URL: (https://nemanjachido.github.io/Insure-landing-page/)
+- Live Site URL: (https://nemanjachido.github.io/Product-Catalog/)
 
 
 ### Built with
