@@ -1,0 +1,79 @@
+/* styles for the Navigation section/component */
+
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.navbar h1{
+    font-size: 1.5rem;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    list-style: none;
+}
+.nav-links li{
+    transition: transform 0.3s;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+.nav-links li:hover a{
+    color: #ddd;
+    transform: scale(1.1);
+}
+.menu-icon{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* For mobile screen sizes */
+@media (max-width: 768px){
+    .nav-links{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+        height: 50vh;
+    }
+
+    /* Click menu icon to toggle Ul active class */
+    .nav-links.active{
+        display: flex;
+        animation: slideDown 0.3s forwards;
+    }
+    @keyframes slideDown{
+        from{
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .menu-icon{
+        display: block;
+    }
+}
