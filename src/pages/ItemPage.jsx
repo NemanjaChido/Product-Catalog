@@ -6,7 +6,7 @@ const ItemPage = () => {
     const products = [
         {
             id: 1, 
-            title: "Winter Jacket", 
+            title: "Winter Jacket",
             price: "$29.50", 
             description: "tailored to your taste", 
             imageUrl: {
