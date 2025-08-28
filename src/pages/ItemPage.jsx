@@ -10,8 +10,8 @@ const ItemPage = () => {
             price: "$29.50", 
             description: "tailored to your taste", 
             imageUrl: {
-                mobile: "/assets/winter-jacket@bulbul-ahmed-mobile.webp",
-                tablet: "/assets/winter-jacket@bulbul-ahmed-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/winter-jacket@bulbul-ahmed-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/winter-jacket@bulbul-ahmed-Tablet.webp"
             }, 
             Discount: "$20"
         },
@@ -20,8 +20,8 @@ const ItemPage = () => {
             price: "$25", 
             description: "Get your jacket right, everthing else aligns", 
             imageUrl: {
-                mobile: "/assets/jacket@pesce-huang--MqBBgzryAc-mobile.webp",
-                tablet: "/assets/jacket@pesce-huang--MqBBgzryAc-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/jacket@pesce-huang--MqBBgzryAc-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/jacket@pesce-huang--MqBBgzryAc-Tablet.webp"
             }
         },
         {   id: 3, 
@@ -29,8 +29,8 @@ const ItemPage = () => {
             price: "$140", 
             description: "Tailored to your taste",
             imageUrl: {
-                mobile: "/assets/leather-jacket-mobile.webp",
-                tablet: "/assets/leather-jacket-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/leather-jacket-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/leather-jacket-Tablet.webp"
             }
         },
         {   id: 4, 
@@ -38,8 +38,8 @@ const ItemPage = () => {
             price: "$55", 
             description: "Luxurious Tailored Masterpiece",
             imageUrl: {
-                mobile: "/assets/Italian-Overcoat-mobile.webp",
-                tablet: "/assets/Italian-Overcoat-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/Italian-Overcoat-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/Italian-Overcoat-Tablet.webp"
             },
             Discount: "$100"
         },
@@ -48,8 +48,8 @@ const ItemPage = () => {
             price: "$15", 
             description: "Tailored to your taste",
             imageUrl: {
-                mobile: "/assets/hoody-mobile.webp",
-                tablet: "/assets/hoody-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/hoody-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/hoody-Tablet.webp"
             }
         },
         {   id: 6, 
@@ -57,8 +57,8 @@ const ItemPage = () => {
             price: "$50", 
             description: "Timeless Casual Essential",
             imageUrl: {
-                mobile: "/assets/jean-jacket@zakaria-issaad-mobile.webp",
-                tablet: "/assets/jean-jacket@zakaria-issaad-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/jean-jacket@zakaria-issaad-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/jean-jacket@zakaria-issaad-Tablet.webp"
             }, 
             Discount: "$45"
         },
@@ -67,8 +67,8 @@ const ItemPage = () => {
             price: "$20", 
             description: "Classic Denim Jacket - Matching fit",
             imageUrl: {
-                mobile: "/assets/Jacket@nens-love-mobile.webp",
-                tablet: "/assets/Jacket@nens-love-Tablet.webp"
+                mobile: import.meta.env.BASE_URL + "assets/Jacket@nens-love-mobile.webp",
+                tablet: import.meta.env.BASE_URL + "assets/Jacket@nens-love-Tablet.webp"
             },
         },
     ]
